@@ -1,0 +1,15 @@
+C:\Users\Comercial\source\repos\MARGEM_PRODUTO\MARGEM_PRODUTO\obj\Debug\net7.0\MARGEM_PRODUTO.csproj.AssemblyReference.cache
+C:\Users\Comercial\source\repos\MARGEM_PRODUTO\MARGEM_PRODUTO\obj\Debug\net7.0\MARGEM_PRODUTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Comercial\source\repos\MARGEM_PRODUTO\MARGEM_PRODUTO\obj\Debug\net7.0\MARGEM_PRODUTO.AssemblyInfoInputs.cache
+C:\Users\Comercial\source\repos\MARGEM_PRODUTO\MARGEM_PRODUTO\obj\Debug\net7.0\MARGEM_PRODUTO.AssemblyInfo.cs
+C:\Users\Comercial\source\repos\MARGEM_PRODUTO\MARGEM_PRODUTO\obj\Debug\net7.0\MARGEM_PRODUTO.csproj.CoreCompileInputs.cache
+C:\Users\Comercial\source\repos\MARGEM_PRODUTO\MARGEM_PRODUTO\bin\Debug\net7.0\MARGEM_PRODUTO.exe
+C:\Users\Comercial\source\repos\MARGEM_PRODUTO\MARGEM_PRODUTO\bin\Debug\net7.0\MARGEM_PRODUTO.deps.json
+C:\Users\Comercial\source\repos\MARGEM_PRODUTO\MARGEM_PRODUTO\bin\Debug\net7.0\MARGEM_PRODUTO.runtimeconfig.json
+C:\Users\Comercial\source\repos\MARGEM_PRODUTO\MARGEM_PRODUTO\bin\Debug\net7.0\MARGEM_PRODUTO.dll
+C:\Users\Comercial\source\repos\MARGEM_PRODUTO\MARGEM_PRODUTO\bin\Debug\net7.0\MARGEM_PRODUTO.pdb
+C:\Users\Comercial\source\repos\MARGEM_PRODUTO\MARGEM_PRODUTO\obj\Debug\net7.0\MARGEM_PRODUTO.dll
+C:\Users\Comercial\source\repos\MARGEM_PRODUTO\MARGEM_PRODUTO\obj\Debug\net7.0\refint\MARGEM_PRODUTO.dll
+C:\Users\Comercial\source\repos\MARGEM_PRODUTO\MARGEM_PRODUTO\obj\Debug\net7.0\MARGEM_PRODUTO.pdb
+C:\Users\Comercial\source\repos\MARGEM_PRODUTO\MARGEM_PRODUTO\obj\Debug\net7.0\MARGEM_PRODUTO.genruntimeconfig.cache
+C:\Users\Comercial\source\repos\MARGEM_PRODUTO\MARGEM_PRODUTO\obj\Debug\net7.0\ref\MARGEM_PRODUTO.dll
