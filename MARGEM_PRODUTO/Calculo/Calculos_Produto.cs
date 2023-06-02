@@ -31,16 +31,24 @@ namespace MARGEM_PRODUTO.Calculo
 
         public double Calculo_FreteCompra()
         {
-            double Preco_Compra = Valor_Compra * Frete_Compra / 100;
-            Console.WriteLine("Preço do Frete Envio R$ " + Preco_Compra);
-            return Preco_Compra;
+            double FT_Compra = Valor_Compra * Frete_Compra / 100;
+            Console.WriteLine("Preço do Frete Compra R$ " + FT_Compra);
+            return FT_Compra;
+        }
+
+        public double Calculo_FreteVenda()
+        {
+            double FT_Venda = Valor_Compra * Frete_Venda / 100;
+            Console.WriteLine("Preço do Frete Venda R$ " + FT_Venda);
+            return FT_Venda;
         }
 
         public void Calculo_Total()
         {
             double Valor_do_Imposto = Calculo_Imposto();
             double Valor_FreteCompra = Calculo_FreteCompra();
-            double Valor_Total = Valor_do_Imposto + Valor_FreteCompra + Valor_Compra;
+            double Valor_FreteVenda = Calculo_FreteVenda();
+            double Valor_Total = Valor_do_Imposto + Valor_FreteCompra + Valor_FreteVenda + Valor_Compra;
             Console.WriteLine("Valor Total R$ " + Valor_Total);
         }
 
@@ -56,6 +64,9 @@ namespace MARGEM_PRODUTO.Calculo
 
             Console.WriteLine("Informe o percentual médio do frete de compra:");
             Frete_Compra = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Informe o percentual médio do frete de venda:");
+            Frete_Venda = double.Parse(Console.ReadLine());
 
             Calculo_Total();
         }
