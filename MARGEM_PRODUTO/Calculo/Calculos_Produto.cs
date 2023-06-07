@@ -29,6 +29,7 @@ namespace MARGEM_PRODUTO.Calculo
             Console.WriteLine("Preço do Imposto R$ " + Preco_Imposto);
             return Preco_Imposto;
         }
+        Console.WriteLine();
 
         public double Calculo_FreteCompra()
         {
@@ -36,6 +37,7 @@ namespace MARGEM_PRODUTO.Calculo
             Console.WriteLine("Preço do Frete Compra R$ " + FT_Compra);
             return FT_Compra;
         }
+        Console.WriteLine();
 
         public double Calculo_FreteVenda()
         {
@@ -43,13 +45,14 @@ namespace MARGEM_PRODUTO.Calculo
             Console.WriteLine("Preço do Frete Venda R$ " + FT_Venda);
             return FT_Venda;
         }
-
+        Console.WriteLine();
         public double Calculo_Aluguel()
         {
             double Cus_Aluguel = Valor_Compra * Custo_Aluguel / 100;
             Console.WriteLine("O valor do aluguel sobre a compra é R$ " + Cus_Aluguel);
             return Cus_Aluguel;
         }
+        Console.WriteLine();
 
         public double Calculo_Marketing()
         {
@@ -57,13 +60,14 @@ namespace MARGEM_PRODUTO.Calculo
             Console.WriteLine("O investimento de marketing no produto é R$ " + In_Markerting);
             return In_Markerting;
         }
+        Console.WriteLine();
         public double Calculo_CustoGeral() 
         { 
             double Cus_Geral = Valor_Compra * Custo_Geral / 100;
             Console.WriteLine("O seu custo geral é de R$ " + Cus_Geral);
             return Cus_Geral;
         }
-
+        Console.WriteLine();
         public void Calculo_Total()
         {
             double Valor_do_Imposto = Calculo_Imposto();
@@ -73,7 +77,10 @@ namespace MARGEM_PRODUTO.Calculo
             double Valor_Marketing = Calculo_Marketing();
             double Valor_CustoGeral = Calculo_CustoGeral();
             double Valor_Custo_Total = Valor_do_Imposto + Valor_FreteCompra + Valor_FreteVenda + Valor_Aluguel + Valor_Marketing + Valor_CustoGeral + Valor_Compra;
-            Console.WriteLine("Valor produto + o custo é R$ " + Valor_Custo_Total);
+            Console.WriteLine("Valor do produto + o custo é R$ " + Valor_Custo_Total);
+            Console.WriteLine();
+            double Valor_Produto_Mais_Margem = (Valor_Custo_Total * Margem_Desejada) / 100 + Valor_Custo_Total;
+            Console.WriteLine("Valor com margem é R$ " + Valor_Produto_Mais_Margem);
         }
 
         public void Retorno()
@@ -101,7 +108,8 @@ namespace MARGEM_PRODUTO.Calculo
             Console.WriteLine("Informe o percentual médio do custo geral:");
             Custo_Geral = double.Parse(Console.ReadLine());
 
-
+            Console.WriteLine("Informe a margem que deseja:");
+            Margem_Desejada = double.Parse(Console.ReadLine());
 
             Calculo_Total();
         }
