@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace MARGEM_PRODUTO.NovaPasta
 {
-    internal class Produto
+    public class Produto
     {
         public string Desc { get; set;}
-        public string Ramo { get; set;}
+        public string Link { get; set;}
     }
 }
